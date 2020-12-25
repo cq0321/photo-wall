@@ -1,5 +1,6 @@
 <template>
   <div>
+    <h1>kw33照片墙项目</h1>
     <ul class="wall">
       <li v-for="(item, index) in listimg" :key="index">
         <img :src="item" alt="" />
